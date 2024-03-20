@@ -141,7 +141,6 @@ while game_on:
 
     # DISPLAYING INITIAL CARDS
     sp = 0
-    print('YOUR CARDS: ')
     for card in player.current_cards:
         sp += card.value
         if card.value == 11:
